@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 200vh;
+}
+div{
+    background-image: url(./Universal-Childrens-Day.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.angle{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    transform: skewY(-10deg);
+    -webkit-transform:skewY(-10deg);
+    -moz-transform:skewY(-10deg);
+    -ms-transform:skewY(-10deg);
+    -o-transform:skewY(-10deg);
+    transform-origin: top left;
+}
